@@ -1,0 +1,83 @@
+/* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+/* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+.cart-list .cart-item img {
+  border-radius: 5px;
+}
+
+/* .cart-list .cart-item p {
+  margin: 0;
+  font-size: 14px;
+  color: green !important;
+} */
+
+.cart-item {
+  /* background-color: red; */
+}
+
+#cart-list {
+  flex: 1;
+  font-size: 16px;
+}
+
+.remove-item {
+  background-color: red;
+  color: white !important;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  background-color: rgb(240, 101, 101);
+}
+
+.increase-qty,
+.decrease-qty {
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase-qty {
+  background-color: green;
+  color: white;
+}
+
+.decrease-qty {
+  background-color: red;
+  color: white;
+}
+
+.calc {
+  margin-left: 15px;
+  display: inline;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.cart-totals {
+  text-align: center;
+  margin-top: 15px;
+}
